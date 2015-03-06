@@ -176,6 +176,16 @@
                                     <action selector="eight" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ukT-nh-23p"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C2I-db-jOw">
+                                <rect key="frame" x="239" y="466" width="51" height="51"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title=".">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="dot" destination="vXZ-lx-hvc" eventType="touchUpInside" id="7lg-4c-zIM"/>
+                                </connections>
+                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aBW-U9-bAM">
                                 <rect key="frame" x="28" y="39" width="262" height="82"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
