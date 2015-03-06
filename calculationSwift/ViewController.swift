@@ -31,30 +31,30 @@ class ViewController: UIViewController {
     
     @IBAction func plus(){
         ope = 1
-        symbolLabel.text = "+"
+//        symbolLabel.text = "+"
     }
     @IBAction func minus(){
         ope = 2
-        symbolLabel.text = "-"
+//        symbolLabel.text = "-"
     }
     @IBAction func multiple(){
         ope = 3
-        symbolLabel.text = "×"
+//        symbolLabel.text = "×"
     }
     @IBAction func divide(){
         ope = 4
-        symbolLabel.text = "÷"
+//        symbolLabel.text = "÷"
     }
     @IBAction func equal(){
         switch ope{
         case 1: number3 = number1 + number2
-        label3.text = "\(number3)"
+        label1.text = "\(number3)"
         case 2: number3 = number1 - number2
-        label3.text = "\(number3)"
+        label1.text = "\(number3)"
         case 3: number3 = number1 * number2
-        label3.text = "\(number3)"
+        label1.text = "\(number3)"
         case 4: number3 = number1 / number2
-        label3.text = "\(number3)"
+        label1.text = "\(number3)"
         default:
             break
         }
@@ -65,9 +65,6 @@ class ViewController: UIViewController {
         number3 = 0
         ope = 0
         label1.text = "\(number1)"
-        label2.text = "\(number2)"
-        label3.text = "\(number3)"
-        symbolLabel.text = " "
     }
     
     @IBAction func one(){
@@ -76,7 +73,7 @@ class ViewController: UIViewController {
             label1.text = "\(number1)"
         }else{
             number2 = number2 * 10 + 1
-            label2.text = "\(number2)"
+            label1.text = "\(number2)"
         }
     }
     
@@ -86,7 +83,7 @@ class ViewController: UIViewController {
             label1.text = "\(number1)"
         }else{
             number2 = number2 * 10 + 2
-            label2.text = "\(number2)"
+            label1.text = "\(number2)"
         }
     }
     @IBAction func three(){
@@ -95,7 +92,7 @@ class ViewController: UIViewController {
             label1.text = "\(number1)"
         }else{
             number2 = number2 * 10 + 3
-            label2.text = "\(number2)"
+            label1.text = "\(number2)"
         }
     }
     @IBAction func four(){
@@ -104,7 +101,7 @@ class ViewController: UIViewController {
             label1.text = "\(number1)"
         }else{
             number2 = number2 * 10 + 4
-            label2.text = "\(number2)"
+            label1.text = "\(number2)"
         }
     }
     @IBAction func five(){
@@ -113,7 +110,7 @@ class ViewController: UIViewController {
             label1.text = "\(number1)"
         }else{
             number2 = number2 * 10 + 5
-            label2.text = "\(number2)"
+            label1.text = "\(number2)"
         }
     }
     @IBAction func six(){
@@ -122,7 +119,7 @@ class ViewController: UIViewController {
             label1.text = "\(number1)"
         }else{
             number2 = number2 * 10 + 6
-            label2.text = "\(number2)"
+            label1.text = "\(number2)"
         }
     }
     @IBAction func seven(){
@@ -131,7 +128,7 @@ class ViewController: UIViewController {
             label1.text = "\(number1)"
         }else{
             number2 = number2 * 10 + 7
-            label2.text = "\(number2)"
+            label1.text = "\(number2)"
         }
     }
     @IBAction func eight(){
@@ -140,7 +137,7 @@ class ViewController: UIViewController {
             label1.text = "\(number1)"
         }else{
             number2 = number2 * 10 + 8
-            label2.text = "\(number2)"
+            label1.text = "\(number2)"
         }
     }
     @IBAction func nine(){
@@ -149,7 +146,7 @@ class ViewController: UIViewController {
             label1.text = "\(number1)"
         }else{
             number2 = number2 * 10 + 9
-            label2.text = "\(number2)"
+            label1.text = "\(number2)"
         }
     }
     @IBAction func zero(){
@@ -158,7 +155,7 @@ class ViewController: UIViewController {
             label1.text = "\(number1)"
         }else{
             number2 = number2 * 10 + 0
-            label2.text = "\(number2)"
+            label1.text = "\(number2)"
         }
     }
     
